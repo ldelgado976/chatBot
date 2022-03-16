@@ -3,80 +3,73 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - hola
+    - hola ¿que tal?
+    - que hay
+    - que pasa bro
+    - buenos dias
+    - buenas tardes
+    - ieeee
+    - que lo ke
+    - venga vamos
+    - que pasa tio
+    - buenas
+    - que pasa colega
+    - que tal todo
 
 - intent: goodbye
   examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - adios
+    - nos vemos
+    - venga tira
+    - tira
+    - hasta mañana
+    - hasta pronto
+    - hasta que nos veamos
+    - adios tio
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - claro
+    - por supuesto
+    - correcto
+    - me suena bien
+    - claro que si
 
 - intent: deny
   examples: |
     - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - nunca
+    - no creo eso
+    - no me suena bien la verdad
+    - no me gusta
+    - de ninguna manera
+    - no realmente
 
 - intent: mood_great
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - perfecto
+    - genial
+    - increible
+    - me siento el rey del mundo
+    - maravilloso
+    - me siento geniañ
+    - estoy muy bien
+    - estoy increible
+    - extremadamente bien
+    - perfectamente
+    - muy bien
 
 - intent: mood_unhappy
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
+    - mi dia fue horrible
+    - estoy triste
+    - no me siento muy bien
+    - no estoy desacuerdo
+    - super triste
+    - estoy muy triste
+    - triste
+    - muy triste
     - unhappy
     - not good
     - not very good
@@ -86,14 +79,20 @@ nlu:
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - eres un bot?
+    - eres un humano?
+    - estoy hablando con un bot?
+    - estoy hablando con un humano?
 
 - intent: give_time
   examples: |
-    - can you tell me what time it is
-    - tell me the time
-    - got the time
-    - what time is it
+    - ?
+    - puedes decirme que hora es?
+    - dime la hora
+    - que hora es?
+    - a que hora estamos?
+
+- intent: action_api
+  examples: |
+    - prueba
+    

@@ -35,3 +35,8 @@ stories:
   - action: utter_greet
   - intent: give_time
   - action: action_show_time
+
+- story: prueba de la api
+  steps:
+  - intent: action_api
+  - action: action_api
